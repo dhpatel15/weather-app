@@ -13,5 +13,5 @@ npm install
 npm run server-dev
 
 # run webpack to build client bundle
-npm run react-dev
+npm run react-dev 
 ```
