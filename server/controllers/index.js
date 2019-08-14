@@ -14,9 +14,8 @@ module.exports = {
          let woeid = data[0].woeid
          return axios.get(`https://www.metaweather.com/api/location/${woeid}/`)
       }).then(({ data }) => {
-        console.log(data)
         res.send(data.consolidated_weather)
-      }).catch(error => res.send("Error"));
+      }).catch(error => res.send(error));
     } 
   }
 };

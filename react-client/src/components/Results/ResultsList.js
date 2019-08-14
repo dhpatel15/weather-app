@@ -3,7 +3,7 @@ import Result from './Result';
 
 import { Row, Col, Container } from 'react-bootstrap';
 
-function ResultsList({ temps,city }) {
+function ResultsList({ temps, city, header }) {
   return (
   	<div>
 
@@ -30,4 +30,5 @@ const header = {
 	fontSize: '38px',
 	fontFamily: 'Helvetica-Bold, system-ui',
 	fontWeight: '700',
+  paddingLeft: '40%',
 }
