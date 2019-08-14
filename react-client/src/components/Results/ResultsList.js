@@ -22,13 +22,3 @@ function ResultsList({ temps, city, header }) {
 export default ResultsList;
 
 
-const header = {
-	display: 'flex',
-	alignContent: 'center',
-	color:'#000000',
-	opacity: '100%',
-	fontSize: '38px',
-	fontFamily: 'Helvetica-Bold, system-ui',
-	fontWeight: '700',
-  paddingLeft: '40%',
-}
